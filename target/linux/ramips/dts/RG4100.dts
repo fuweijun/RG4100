@@ -37,10 +37,10 @@
 		#size-cells = <0>;
 		poll-interval = <20>;
 
-		wps {
+		reset {
 			label = "reset";
-			gpios = <&gpio1 6 GPIO_ACTIVE_LOW>;
-			linux,code = <KEY_WPS_BUTTON>;
+			gpios = <&gpio1 10 GPIO_ACTIVE_LOW>;
+			linux,code = <KEY_RESTART>;
 		};
 	};
 };
