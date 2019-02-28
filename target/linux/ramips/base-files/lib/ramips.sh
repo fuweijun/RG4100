@@ -274,6 +274,9 @@ ramips_board_detect() {
 	*"MediaTek LinkIt Smart 7688")
 		name="linkits7688"
 		;;
+	*"Rexense RG4100")
+		name="rg4100"
+		;;
 	*"Memory 2 Move")
 		name="m2m"
 		;;

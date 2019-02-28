@@ -259,6 +259,9 @@ kng_rc)
 linkits7688)
 	ucidef_set_led_wlan "wifi" "wifi" "linkit-smart-7688:orange:wifi" "phy0tpt"
 	;;
+rg4100)
+	ucidef_set_led_wlan "wifi" "wifi" "rg4100:red:wifi" "phy0tpt"
+	;;
 m2m)
 	set_wifi_led "$boardname:blue:wifi"
 	ucidef_set_led_netdev "eth" "Ethernet" "$boardname:green:wan" "eth0"
